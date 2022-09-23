@@ -1,0 +1,205 @@
+a{
+    text-decoration: none;
+   color: inherit;
+
+
+}
+/*
+a:hover{
+    color:#E55F52;
+}*/
+*{  border-radius: 10px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+body{
+    word-break: keep-all;
+}
+#header{display:flex;
+        justify-content: space-between;        /*
+        width: 80%;*/
+        margin:0;
+        padding: 0 80px;
+    }
+
+#header2{
+    display: flex;
+    
+}
+
+#main{display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+.mainitems{
+    flex-grow: 1;
+    width: 86%;
+    margin: 2%;
+    border-radius: 10px;
+}
+.header2{
+    padding:7px;
+    color:black;
+}
+.header2:hover{
+    color: #E55F52;
+}
+#airbnblogo{
+    font-size: 20px;
+    color: #E55F52;
+    padding: 5px;
+    font-weight: bold;
+}
+i> span{
+    font-weight: bold;
+    color: #E55F52;
+}
+/*#Fst{
+    background-image:url(rokan.png);
+    background-position: right;
+    background-size: cover;}
+*/
+
+#Snd{
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,1)20%,
+        rgba(0,0,0,0.8)30%,
+        rgba(0,0,0,0.7)35%,
+        rgba(0,0,0,0.6)40%,
+        rgba(0,0,0,0.5)45%,
+        rgba(0,0,0,0.0)100%
+
+
+    ),url(host.jpg);
+    background-size: cover;
+    color: white;
+    padding: 7% 7% 7% 3%;   
+}
+article h2:first-child{
+    margin: 0;
+}
+#Fst{
+    /*flex-basis: 700px;
+    도대체 왜 안되니??? flex basis를 설정하면 이 article은 늘어나는데 왜 안에 있는 image는 height가 100%인데 
+    100%로 늘지를 않니 왜 ??*/
+    text-align: right;
+    position: relative;
+}
+#Trd{
+}
+#floatform{
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    top: 5px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, .1);
+    padding: 30px;
+}
+#description{
+    color: gray;
+    font-size: 15px;
+}
+#rokan{width: 80%;
+        height: 100%;
+    }
+
+
+
+img{
+    border-radius: 10px;}
+
+#host{
+    width: 60%;
+    height: 40%;
+}
+#submit{
+    display: block;
+    width: 100%;
+    background-color: #E55F52;
+    color: white;
+    font-weight: bold;
+}
+input{
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px; 
+    border: 0.5px solid gainsboro;
+}
+
+.flexfordate{
+    display: flex;
+    border:0.5px solid gainsboro;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.eachdate{
+    border: transparent;
+    width:50%;
+}
+#near{
+    width: 100%;
+}
+.span{
+    width: 1px;
+    background: #DDDDDD;
+    height: 30px;
+    top: 9px;
+    position: relative;
+}
+form> input{
+    margin-top: 10px;
+}
+#submitlogo{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top:33px;
+    left: 105px;
+}
+.more{
+    color:black;
+    background:white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.airbnb{
+    background-color: gray;
+    background-size: cover;
+    width: 33.3%;
+    padding: 13%;
+    margin: 5px;
+    text-align: center;
+    filter: grayscale(50%);}
+#Trd>div{
+height: 100%;
+}
+#airbnb1{
+    background-image: url(1.jpg);
+}
+#airbnb2{
+    background-image: url(2.jpg);
+}
+#airbnb3{
+    background-image: url(3.jpeg);
+}
+#anotherflex{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+}
+.airbnb>.hidden{
+    opacity: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.airbnb:hover .hidden{
+    opacity: 100;
+}
+.airbnb:hover{      
+    filter: none;
+}
